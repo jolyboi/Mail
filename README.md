@@ -44,12 +44,3 @@ A web-based email application built using **Python (Django)** for the backend an
   - CSS Animations (for smooth transitions)
 
 ---
-
-## Setup Instructions
-
-### Prerequisites
-
-1. **Python**: Ensure Python 3.x is installed.
-2. **Django**: Install Django using pip:
-   ```bash
-   pip install django
