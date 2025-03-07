@@ -306,14 +306,6 @@ function archive(email) {
   archived_message.classList.add('deleted-email');
   archived_message.classList.remove('selected');
 
-  archived_message.addEventListener('animationend', () => {
-    setTimeout(() => {
-        archived_message.remove();
-    }, 1000); // Match animation duration
-  });
-
- 
-
 }
 
 // todo Button functionality that will send a PUT request to archive-unarchive the email and delete it from the original inbox with animation
